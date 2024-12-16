@@ -101,7 +101,7 @@ export default function extractActionsFromFile (
             doLog(
                 (isUsingSha) ? chalk.green : chalk.red,
                 (isUsingSha) ? '☑' : '☒',
-                ((isUsingSha) ? 'Action uses SHA:' : "Action doesn't use SHA:") + ` ${packageLink}@${packageVersion}`,
+                ((isUsingSha) ? 'Action uses SHA:' : 'Action doesn\'t use SHA:') + ` ${packageLink}@${packageVersion}`,
             );
 
             if (isUsingSha) {
